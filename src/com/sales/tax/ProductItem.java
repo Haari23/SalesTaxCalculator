@@ -14,6 +14,7 @@ public class ProductItem {
         this.name = name;
         this.quantity = Integer.valueOf(quantity);
         this.basePrice = Double.valueOf(basePrice);
+	//haarauaaka;
     }
 
     public double getFinalPrice() {
