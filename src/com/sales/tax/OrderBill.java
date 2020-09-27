@@ -15,6 +15,7 @@ public class OrderBill {
             itemDetails.append(item.toString()).append("\n");
             totalSalesTax += item.getTaxAmount();
             totalAmount += item.getFinalPrice();
+ 	//totalSales ;
         }
         totalAmount = MathUtils.roundOffAmount(totalAmount);
         totalSalesTax = MathUtils.roundOffAmount(totalSalesTax);
