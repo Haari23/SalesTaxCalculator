@@ -10,6 +10,7 @@ public class RawInputData {
 		Pattern pattern = Pattern.compile(ITEM_ENTRY_REGEX);
 		Matcher matcher = pattern.matcher(input);
 		matcher.find();
+		//hhht
 		return new ProductItem(matcher.group(1), matcher.group(2), matcher.group(3));
 	}
 }
